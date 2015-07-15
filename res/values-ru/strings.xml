@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_desc">Показ mp3-тегов в приложении MtcMausic для KGL</string>
+    
+    <string name="seconds">секунд</string>
+    <string name="toast_return_back">возврат на</string>
+
+</resources>
