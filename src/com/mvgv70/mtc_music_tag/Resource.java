@@ -246,12 +246,11 @@ public class Resource implements IXposedHookInitPackageResources {
 		// btn_style
 		Log.d(TAG,"btn_style");
 		Button btn_style = (Button)liparam.view.findViewById(liparam.res.getIdentifier("btn_style", "id", MUSIC_PACKAGE));
-		((LinearLayout.LayoutParams)btn_style.getLayoutParams()).width = getIntProperty("btn_Style.width",105);
+		((LinearLayout.LayoutParams)btn_style.getLayoutParams()).width = getIntProperty("btn_style.width",120);
 		// btn_del
 		Log.d(TAG,"btn_del");
 		ImageButton btn_del = (ImageButton)liparam.view.findViewById(liparam.res.getIdentifier("btn_del", "id", MUSIC_PACKAGE));
-		((LinearLayout.LayoutParams)btn_del.getLayoutParams()).width = getIntProperty("btn_del.width",85);
-		// ((LinearLayout.LayoutParams)btn_del.getLayoutParams()).leftMargin = getIntProperty("btn_del.left",5);
+		((LinearLayout.LayoutParams)btn_del.getLayoutParams()).width = getIntProperty("btn_del.width",100);
 		// itemlist
 	    Log.d(TAG,"itemlist");
 		ListView itemlist = (ListView)liparam.view.findViewById(liparam.res.getIdentifier("itemlist", "id", MUSIC_PACKAGE));
